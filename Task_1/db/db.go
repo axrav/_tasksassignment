@@ -7,11 +7,14 @@ import (
 	"gorm.io/gorm"
 )
 
-var DB_URL = os.Getenv("DB_URL")
+// Pgres is the global variable which is used to access the database
 var Pgres *gorm.DB
 
+// Connect is used to connect to the database, Gorm is used as the ORM
 func Connect() error {
-	Pgres, err := gorm.Open(postgres.Open(DB_URL), &gorm.Config{})
+	var DB_URL = os.Getenv("DB_URL")
+	var err error
+	Pgres, err = gorm.Open(postgres.Open(DB_URL), &gorm.Config{})
 	if err != nil {
 		return err
 	}
