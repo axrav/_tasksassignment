@@ -46,6 +46,13 @@ sudo docker run -p machine_port:container_port -d -it tasks
 ```
 
 ### Stack used
+- GoLang
+- GoFiber
+- Gorm
+- PostgreSQL
+- Docker
+- Docker Compose
+
 
 
 
