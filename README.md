@@ -1,10 +1,10 @@
-# TASKS ASSIGNMENT
+# TASKS Assignment
 This repository contains the tasks given by an org as an assignment
 
 
-## PATHS
-Task_1 contains the first task 
-Task_2 contains the second task given 
+### PATHS
+- Task_1 contains the first task 
+- Task_2 contains the second task  
 
 
 ## TASK_1
@@ -19,7 +19,7 @@ Task_2 contains the second task given
 
 ### Install using docker
 
-## Stack used
+### Stack used
 
 
 
