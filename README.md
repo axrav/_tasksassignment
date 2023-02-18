@@ -44,5 +44,6 @@ go run .
 
 
 The instructions above are given for a linux machine, for different OS, the instructions might differ
-These Tasks were completed by [axrav]("https://github.com/axrav)
+
+- These Tasks were completed by [axrav](https://github.com/axrav)
 
