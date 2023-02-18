@@ -1,4 +1,4 @@
-FROM golang:1.20.0-alpine3.14 
+FROM golang:1.20.2-bullseye
 COPY . /app
 WORKDIR /app
 RUN go build -o /build/app
