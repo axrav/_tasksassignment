@@ -34,7 +34,7 @@ chmod +x app
 # use a .env file or export the env to docker later, make sure to edit values of env before build
 sudo docker image build -t tasks .
 # not using env
-sudo docker run -p machine_port:container_port -e PORT=container_port -e DATABASE_URL="your_database_url" -d -it tasks  
+sudo docker run -p machine_port:container_port -e PORT=container_port -e DB_URL="your_database_url" -d -it tasks  
 # if using .env 
 sudo docker run -p machine_port:container_port -d -it tasks
 
@@ -43,6 +43,8 @@ sudo docker run -p machine_port:container_port -d -it tasks
 
 ## Install with docker compose
 ```console
+# use a .env file with env variables passed
+sudo docker-compose up
 ```
 
 ### Stack used
