@@ -21,7 +21,7 @@ This repository contains the tasks given by an org as an assignment
 ``` console
 git clone https://github.com/axrav/_tasksassignment
 cd _tasksassignment/Task_1
-# either export or env or use a .env file refer to sample.env
+# either export the env or use a .env file refer to sample.env
 go build . app
 chmod +x app
 ./app
