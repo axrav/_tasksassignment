@@ -24,7 +24,7 @@ func Setup(app *fiber.App) {
 	// Getting all the Books, Movies and Music
 	book.Get("/getBooks", controllers.GetBooks)
 	movie.Get("/getMovies", controllers.GetMovies)
-	music.Get("/getMusic", controllers.GetAllMusic)
+	music.Get("/getAllMusic", controllers.GetAllMusic)
 	// Getting a single Book, Movie and Music
 	book.Get("/getBook/:id", controllers.GetBook)
 	movie.Get("/getMovie/:id", controllers.GetMovie)
